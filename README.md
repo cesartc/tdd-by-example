@@ -54,7 +54,8 @@ npm run test
 
 Those two first belong to Clean Code book, but I like them a lot.
 
-- 
+- _Think about how you would like the operation in your mind to appear in your code.
+You are writing a story. Invent the interface you wish you had_
 
 ## Notes
 

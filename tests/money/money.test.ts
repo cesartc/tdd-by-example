@@ -1,9 +1,9 @@
 import Dollar from '../../src/money/dollar'
 
 test('Multiplication', () => {
-  const nomination = 5
-  const numberOfTimes = 2
-  const five: Dollar = new Dollar(nomination)
-  five.times(numberOfTimes)
-  expect(five.amount).toEqual(nomination * numberOfTimes)
+  const five: Dollar = new Dollar(5)
+  let product: Dollar = five.times(2)
+  expect(product.amount).toEqual(10)
+  product = five.times(3)
+  expect(product.amount).toEqual(15)
 })
