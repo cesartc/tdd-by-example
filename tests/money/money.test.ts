@@ -7,3 +7,9 @@ test('Multiplication', () => {
   product = five.times(3)
   expect(product.amount).toEqual(15)
 })
+
+test('Equality', () => {
+  const fiveDollars = new Dollar(5)
+  expect(fiveDollars.equals(new Dollar(5)))
+    .toEqual(true)
+})
