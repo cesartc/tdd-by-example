@@ -63,6 +63,9 @@ than come to mind but can be done later
 - Doing triangulation implies generalize code whe we have two or more
 examples, when the second requires a more general solution, then
 we generalize the implementation
-- Use triangulation when design thoughts are not clear
-- Every time you find a defect, learn about it, and write the tests
+- **ch4.** Use triangulation when design thoughts are not clear
+- **ch4.** Every time you find a defect, learn about it, and write the tests
 that should have been written for that case.
+- **ch5.** Write small tests that move you one step closer to the desired one
+- **ch6.** Keep in mind the cycle. If your first solution has an extremely WTF!? design
+you must solve it "later but now"
