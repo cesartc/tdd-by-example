@@ -64,3 +64,5 @@ than come to mind but can be done later
 examples, when the second requires a more general solution, then
 we generalize the implementation
 - Use triangulation when design thoughts are not clear
+- Every time you find a defect, learn about it, and write the tests
+that should have been written for that case.
