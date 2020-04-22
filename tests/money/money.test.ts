@@ -10,6 +10,9 @@ test('Multiplication', () => {
 
 test('Equality', () => {
   const fiveDollars = new Dollar(5)
-  expect(fiveDollars.equals(new Dollar(5)))
-    .toEqual(true)
+  const anotherFiveDollars = new Dollar(5)
+  expect(fiveDollars.equals(anotherFiveDollars)).toBeTruthy()
+
+  const sixDollars = new Dollar(6)
+  expect(fiveDollars.equals(sixDollars)).toBeFalsy()
 })

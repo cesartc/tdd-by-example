@@ -58,5 +58,9 @@ Those two first belong to Clean Code book, but I like them a lot.
 You are writing a story. Invent the interface you wish you had_
 
 ## Notes
-
-
+- Create a to-do list while writing tests, so you can keep track of examples
+than come to mind but can be done later
+- Doing triangulation implies generalize code whe we have two or more
+examples, when the second requires a more general solution, then
+we generalize the implementation
+- Use triangulation when design thoughts are not clear

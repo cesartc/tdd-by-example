@@ -8,8 +8,8 @@ class Dollar {
     return new Dollar(this.amount * multiplier)
   }
 
-  equals (anotherDollar: Dollar) {
-    return true
+  equals (anotherDollar: Dollar): boolean {
+    return this.amount === anotherDollar.amount
   }
 }
 
