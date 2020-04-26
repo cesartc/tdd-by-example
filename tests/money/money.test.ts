@@ -11,9 +11,11 @@ test('Equality', () => {
   const fiveDollars = new Dollar(5)
   const anotherFiveDollars = new Dollar(5)
   expect(fiveDollars.equals(anotherFiveDollars)).toBeTruthy()
-
   const sixDollars = new Dollar(6)
   expect(fiveDollars.equals(sixDollars)).toBeFalsy()
+
+  expect(new Franc(5).equals(new Franc(5))).toBeTruthy()
+  expect(new Franc(5).equals(new Franc(6))).toBeFalsy()
 })
 
 test('Franc multiplication', () => {
