@@ -6,7 +6,10 @@ class Money {
   }
 
   equals (money: Money): boolean {
-    return this.amount === money.amount
+    if (money.constructor === this.constructor) {
+      return this.amount === money.amount
+    }
+    return false
   }
 }
 
